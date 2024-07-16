@@ -194,6 +194,44 @@ echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
 ```
 sudo swapon --show
 ```
+### New swap memory Cmd
+```
+ sudo su
+```
+```
+sudo dd if=/dev/zero of=/swapfile bs=128M count=16
+```
+```
+free -m
+```
+```
+cd / 
+```
+```
+ls   { check there is a swapfile}
+```
+```
+ls -la { check there is a  -rw-r--r--}
+```
+```
+sudo chmod 600  /swapfile
+```
+```
+sudo mkswap  /swapfile
+```
+```
+sudo swapon /swapfile
+```
+```
+sudo swapon -s
+```
+```
+free -m
+```
+```
+htop
+``` 
+
 # rabbitmq
 ```
 sudo apt-get update
