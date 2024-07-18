@@ -1,3 +1,10 @@
+
+## 
+```
+https://successlifemantra.com:8090/
+pass+fobsam#1Aa
+```
+
 # 1 nvm installation
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
